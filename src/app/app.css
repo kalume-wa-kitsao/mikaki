@@ -1,0 +1,24 @@
+.mikaki-main {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.mikaki-hero {
+    flex: 1;
+}
+
+.mikaki-hero-card {
+    position: sticky;
+    top: 100px; /* distance from top when scrolling */
+    background-color: var(--color-bg-secondary);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.mikaki-main {
+    flex: 2;
+}

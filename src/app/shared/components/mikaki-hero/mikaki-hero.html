@@ -1,1 +1,21 @@
-<p>mikaki-hero works!</p>
+<div class="mikaki-hero-component">
+    <div class="mikaki-hero-header">
+
+    </div>
+
+    <div class="mikaki-hero-tags">
+        <div class="mikaki-hero-tags-title">
+            Michael Kalume
+        </div>
+
+        <div class="mikaki-hero-tags-subtext">
+            A Software Engineer who has developed countless innovative solutions.
+        </div>
+    </div>
+
+    <div class="mikaki-hero-footer">
+        <button *ngFor="let socialMenu of socialMenus; index as socialIndex" class="mikaki-social-menu" (click)="goToExternalSite(socialMenu.link)">
+            <img src="{{ socialMenu.icon }}" alt="{{ socialMenu.verbose }}" class="icon" />
+        </button>
+    </div>
+</div>

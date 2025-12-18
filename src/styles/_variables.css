@@ -8,6 +8,7 @@
     --color-text-primary: #ffffff;     /* main headings */
     --color-text-secondary: #b3b3b3;   /* body text */
     --color-text-muted: #7a7a7a;       /* captions, meta */
+    --color-text-subheading: rgba(182, 180, 189, 0.2)
 
     /* Borders & Dividers */
     --color-border-subtle: #262626;
@@ -23,4 +24,7 @@
 
     /* Utility */
     --color-overlay: rgba(0, 0, 0, 0.6);
+
+    --navbar-height: 120px;
+    --transition-speed: 0.3s;
 }

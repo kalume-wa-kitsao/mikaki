@@ -1,1 +1,10 @@
-<p>mikaki-navbar works!</p>
+<nav class="navbar">
+    <div class="navbar-menus">
+        <div *ngFor="let menu of navbarMenus; index as menuIndex; trackBy: trackNavItemsByFn" title="{{ menu.title }}"
+            class="navbar-menu">
+            <a routerLink="{{ menu.path }}" routerLinkActive="active">
+                <img src="{{ menu.icon }}" alt="{{ menu.label }}" class="icon" />
+            </a>
+        </div>
+    </div>
+</nav>

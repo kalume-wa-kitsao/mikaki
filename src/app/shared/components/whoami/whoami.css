@@ -1,0 +1,26 @@
+.whoami {
+    .whoami-header {
+        font-family: "Poppins", "Poppins Placeholder", sans-serif;
+        font-size: 110px;
+        font-weight: 900;
+        line-height: 95%;
+
+        .software-header {
+            color: white;
+        }
+
+        .engineer-header {
+            color: rgba(182, 180, 189, 0.3);
+        }
+    }
+
+    .whoami-subtext {
+        padding-left: 5px;
+        padding-top: 12px;
+        font-family: "Poppins", "Poppins Placeholder", sans-serif;
+        color: rgba(173, 171, 181, 0.8);
+        text-align: justify;
+        margin-right: 15rem;
+        font-size: 16px;
+    }
+}

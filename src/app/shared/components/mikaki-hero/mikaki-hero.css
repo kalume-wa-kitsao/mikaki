@@ -1,0 +1,58 @@
+.mikaki-hero-component {
+    background-color: white;
+    width: 260px;
+    border-radius: 12px;
+    padding-inline: 40px;
+    padding-block: 28px;
+
+    .mikaki-hero-header {
+        margin-inline: 8px;
+        height: 300px;
+        width: auto;
+        background-color: black;
+        border-radius: 12px;
+    }
+
+    .mikaki-hero-tags {
+        padding-top: 24px;
+
+        .mikaki-hero-tags-title {
+            font-family: "Poppins", "Poppins Placeholder", sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            line-height: 110%;
+            color: black;
+        }
+
+        .mikaki-hero-tags-subtext {
+            padding-top: 48px;
+            font-family: "Poppins", "Poppins Placeholder", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            line-height: 140%;
+            color: #6a6b6e;
+        }
+    }
+
+    .mikaki-hero-footer {
+        margin-inline: 12px;
+        display: flex;
+        justify-content: space-around;
+
+        padding-top: 32px;
+
+        .mikaki-social-menu {
+            padding: 8px;
+            border-radius: 6px;
+            border: none;
+        }
+
+        .mikaki-social-menu:hover {
+            border-radius: 30px;
+        }
+    }
+}
