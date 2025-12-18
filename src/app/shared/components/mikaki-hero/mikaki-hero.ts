@@ -47,6 +47,9 @@ export class MikakiHero {
         }
     ]
 
+    developerName: string = environment.developerName;
+    developerTagText: string = 'A Software Engineer who has developed countless innovative solutions.'
+
     goToExternalSite(link: string) {
         window.open(link, '_blank', 'noopener,noreferrer');
     }
