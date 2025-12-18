@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/_breakpoints.css';
+@import './styles/_variables.css';
+@import './styles/_fonts.css';
+
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: var(--md)) {
+    /* styles for medium screens */
+}
+
+@media (min-width: var(--lg)) {
+    /* styles for large screens */
+}
+
+@media (min-width: var(--xl)) {
+    /* styles for extra large screens */
+}
