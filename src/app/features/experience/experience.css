@@ -1,0 +1,42 @@
+.mikaki-work-experiences {
+    .mikaki-work-experience {
+        padding-inline: 12px;
+        padding-block: 12px;
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+
+        .mikaki-work-experience-job-title {
+            font-size: 26px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .mikaki-work-experience-company {
+            color: rgba(182, 180, 189, 0.9);
+            font-size: 18px;
+            font-weight: 600;
+            padding-block: 16px;
+        }
+
+        .mikaki-work-experience-job-roles {
+            color: rgba(182, 180, 189, 0.8);
+            padding-right: 40px;
+            line-height: 120%;
+        }
+
+        .mikaki-work-experience-years {
+            color: rgba(182, 180, 189, 0.8);
+            padding-top: 24px;
+        }
+    }
+
+    .mikaki-work-experience:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
+    .mikaki-work-experience:hover {
+        cursor: pointer;
+        background-color: #212121;
+        transform: scale(1.003);
+    }
+}

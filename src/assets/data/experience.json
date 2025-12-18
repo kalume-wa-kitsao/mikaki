@@ -1,0 +1,30 @@
+[
+    {
+        "jobTitle": "Full-stack Software Engineer",
+        "from": "July 2022",
+        "to": "Present",
+        "company": "Engie Energy Access",
+        "verbose": "Defined, built, and maintained stable APIs for multiple client applications, led frontend modernization by implementing intuitive UI/UX, coached and onboarded new team members, and guided the team through agile cycles to deliver over 10 successful projects, ensuring application stability and high uptime."
+    },
+    {
+        "jobTitle": "Senior Software Engineer / Team Lead",
+        "from": "April 2020",
+        "to": "June 2022",
+        "company": "Savannah Informatics Limited",
+        "verbose": "Led a team to decentralize monolithic applications into scalable microservices, maintained site reliability through upgrades and monitoring, designed and developed new modules per stakeholder requirements, provisioned test environments, and trained new engineers and interns to ensure consistent delivery."
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "from": "November 2018",
+        "to": "April 2020",
+        "company": "Savannah Informatics Limited",
+        "verbose": "Stabilized and automated key modules for card management, preauthorizations and customer billing, improving efficiency and revenue, while mentoring junior engineers in continuous delivery, automated testing, and end-to-end code deployment."
+    },
+    {
+        "jobTitle": "Intern - Software Engineer",
+        "from": "June 2017",
+        "to": "November 2018",
+        "company": "Savannah Informatics Limited",
+        "verbose": "Gained hands-on experience implementing backend APIs, client-facing screens, and modules, learning how software solutions align with business requirements to improve processes and client outcomes."
+    }
+]

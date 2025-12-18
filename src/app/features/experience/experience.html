@@ -9,6 +9,31 @@
     </div>
 
     <div class="mikaki-page-content">
+        <div class="mikaki-work-experiences">
+            <div class="mikaki-work-experience"
+                *ngFor="let workExperience of workExperiences; index as workExperienceIndex;">
+                <div class="mikaki-work-experience-job-title">
+                    {{ workExperience.jobTitle }}
+                </div>
 
+                <div class="mikaki-work-experience-company">
+                    {{ workExperience.company }}
+                </div>
+
+                <div class="mikaki-work-experience-job-roles">
+                    {{ workExperience.verbose }}
+                </div>
+
+                <div class="mikaki-work-experience-years">
+                    <span>
+                        {{ workExperience.from }}
+                    </span>
+                    -
+                    <span>
+                        {{ workExperience.to }}
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

@@ -10,6 +10,7 @@ html, body {
   color: var(--color-text-primary);
   padding: 0px;
   margin: 0px;
+  font-family: "Poppins", "Poppins Placeholder", sans-serif;
 }
 
 @media (min-width: var(--md)) {
@@ -30,6 +31,8 @@ button:hover {
 
 .mikaki-page {
     .mikaki-page-header {
+        transition: transform .3s ease;
+
         font-family: "Poppins", "Poppins Placeholder", sans-serif;
         font-size: 90px;
         font-weight: 900;
@@ -44,6 +47,10 @@ button:hover {
         }
     }
 
+    .mikaki-page-header:hover {
+        transform: scale(1.01);
+    }
+
     .whoami-subtext {
         padding-left: 5px;
         padding-top: 12px;
@@ -52,5 +59,9 @@ button:hover {
         text-align: justify;
         margin-right: 15rem;
         font-size: 16px;
+    }
+
+    .mikaki-page-content {
+        padding-top: 30px;
     }
 }
